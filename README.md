@@ -144,6 +144,7 @@ Follow these steps to deploy the entire infrastructure and configure the CI/CD p
     This step will provision your entire AWS infrastructure: VPC, subnets, ALBs, ASGs, RDS instance, Lambda function, API Gateway, and SSM parameters.
 
 *Figure 2: Successful Terraform Apply Output*
+![alt text](images/10.png)
 
 6.  **Retrieve API Gateway URL:**
       * After `terraform apply` completes, note the `api_gateway_invoke_url` from the Terraform output. This URL is crucial for configuring your GitHub Actions.
@@ -170,11 +171,11 @@ Follow these steps to deploy the entire infrastructure and configure the CI/CD p
       * Commit and push this change to the `main` branch. This will automatically trigger the GitHub Actions workflow.
 
 *Figure 3: A successful GitHub Actions Workflow Run*
+![alt text](images/4.png)
 
 -----
 
 ## 6\. CI/CD Pipeline Workflow
-![alt text](images/4.png)
 ![alt text](images/5.png)
 
 The CI/CD pipeline is defined in `.github/workflows/build-deploy.yml` and automates the entire deployment process.
@@ -195,6 +196,7 @@ The CI/CD pipeline is defined in `.github/workflows/build-deploy.yml` and automa
 -----
 
 ## 7\. SSM Management and Updates
+![schema](images/9.png)
 
 AWS Systems Manager plays a pivotal role in managing EC2 instances and orchestrating deployments:
 
