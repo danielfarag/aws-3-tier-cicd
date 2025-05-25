@@ -7,10 +7,9 @@ router.get('/health', async (req, res) => {
 });
 
 
-router.get('/custom', async (req, res) => {
+router.get('/new', async (req, res) => {
   res.status(200).json({
     res: "message test 2"
   }); 
 });
-
 module.exports = router;
