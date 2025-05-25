@@ -32,7 +32,7 @@ jobs:
             -d '{
                     "type": "Backend"
                 }' \
-            ${{ secrets.API_GW }}
+            ${{ vars.API_GW }}
 
 
 
