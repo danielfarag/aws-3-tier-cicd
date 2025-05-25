@@ -25,8 +25,29 @@ jobs:
       - name: Push Backend Docker image to GitHub Container Registry
         run: docker push ghcr.io/danielfarag/aws-3-tier-cicd-backend:latest
       
+      - name: Send POST request to API Gateway To udpate Backend
+        run: |
+            curl -X POST \
+            -H "Content-Type: application/json" \
+            -d '{
+                    "type": "Backend"
+                }' \
+            ${{ secrets.API_GW }}
+
+
+
       - name: Build Frontend Docker image
         run: docker build -t ghcr.io/danielfarag/aws-3-tier-cicd-frontend:latest ./frontend
       
       - name: Push Frontend Docker image to GitHub Container Registry
         run: docker push ghcr.io/danielfarag/aws-3-tier-cicd-frontend:latest
+
+      - name: Send POST request to API Gateway To udpate Frontend
+        run: |
+            curl -X POST \
+            -H "Content-Type: application/json" \
+            -d '{
+                    "type": "Frontend"
+                }' \
+            ${{ secrets.API_GW }}
+
