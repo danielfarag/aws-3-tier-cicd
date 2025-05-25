@@ -5,17 +5,17 @@ This project implements a scalable, secure, and automated 3-tier web application
 
 ## Table of Contents
 
-1.  [Architecture Overview](https://www.google.com/search?q=%231-architecture-overview)
-2.  [Features](https://www.google.com/search?q=%232-features)
-3.  [Project Structure](https://www.google.com/search?q=%233-project-structure)
-4.  [Prerequisites](https://www.google.com/search?q=%234-prerequisites)
-5.  [Deployment Guide](https://www.google.com/search?q=%235-deployment-guide)
-      * [AWS Configuration](https://www.google.com/search?q=%2351-aws-configuration)
-      * [Terraform Deployment](https://www.google.com/search?q=%2352-terraform-deployment)
-      * [GitHub Actions Setup](https://www.google.com/search?q=%2353-github-actions-setup)
-6.  [CI/CD Pipeline Workflow](https://www.google.com/search?q=%236-cicd-pipeline-workflow)
-7.  [SSM Management and Updates](https://www.google.com/search?q=%237-ssm-management-and-updates)
-8.  [Security Considerations](https://www.google.com/search?q=%238-security-considerations)
+1.  [Architecture Overview](https://www.google.com/search?q=#1-architecture-overview)
+2.  [Features](https://www.google.com/search?q=#2-features)
+3.  [Project Structure](https://www.google.com/search?q=#3-project-structure)
+4.  [Prerequisites](https://www.google.com/search?q=#4-prerequisites)
+5.  [Deployment Guide](https://www.google.com/search?q=#5-deployment-guide)
+      * [AWS Configuration](https://www.google.com/search?q=#51-aws-configuration)
+      * [Terraform Deployment](https://www.google.com/search?q=#52-terraform-deployment)
+      * [GitHub Actions Setup](https://www.google.com/search?q=#53-github-actions-setup)
+6.  [CI/CD Pipeline Workflow](https://www.google.com/search?q=#6-cicd-pipeline-workflow)
+7.  [SSM Management and Updates](https://www.google.com/search?q=#7-ssm-management-and-updates)
+8.  [Security Considerations](https://www.google.com/search?q=#8-security-considerations)
 
 -----
 
